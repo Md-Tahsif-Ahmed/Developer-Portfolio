@@ -46,9 +46,9 @@ nav a {
 /* Header part design */
 .header {
     background-color: wheat;
-    background-image: url(../images/header_bg.png);
+    background-image: url('../images/header_bg.png'), url('../images/developer.png');
     background-repeat: no-repeat;
-    background-position: bottom right;
+    background-position: bottom right, top left;
 }
 
 .banner {
@@ -120,6 +120,7 @@ main section {
     background-color: antiquewhite;
     padding: 150px;
     margin: 150px 0px;
+    border-radius: 5px;
 }
 
 .section-title {
@@ -234,6 +235,7 @@ main section {
     background: #FFF8F3;
     padding: 130px 230px;
     margin-top: 100px;
+    gap: 100px;
 }
 
 .footer-title {
@@ -244,4 +246,31 @@ main section {
     font-size: 35px;
     font-weight: 700;
      
+}
+
+
+.f-col {
+
+    width: 50%;
+}
+.social-icon {
+    margin-right: 25px;
+    
+}
+
+.contuct input[type="text"], textarea, .contuct input[type="email"] {
+    display: block;
+    margin-bottom: 25px;
+    padding: 18px 35px;
+    border-radius: 5px;
+    background: var(--white-color, #FFF);
+    border: none;
+    width: 100%;
+    color: var(--dark-03, #757575);
+    font-size: 16px;
+    font-weight: 400;
+  
+
+
+
 }
