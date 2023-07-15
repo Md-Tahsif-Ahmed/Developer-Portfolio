@@ -97,11 +97,18 @@ nav a {
 
 /* main section work */
 
-.main {
+main {
 
     max-width: 1140px;
     margin: 0 auto;
 }
+
+main section {
+
+    margin-top: 130px;
+}
+
+
 
 
 /* about section work */
@@ -162,6 +169,79 @@ nav a {
     border-radius: 5px;
     background: #FFF;
     box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+
+    padding: 30px;
+    gap: 24px;
 }
 
-.skill 
+.skill-des {
+    color: var(--dark-03, #757575);
+}
+
+/*  Resume section */
+
+.resume-container {
+
+    display: flex;
+    gap: 50px;
+}
+
+.resume-title {
+
+    color: var(--dark-02, #474747);
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+}
+
+.re-item-title {
+
+    color: var(--dark-02, #474747);
+    font-size: 25px;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 10px;
+
+
+}
+
+.re-item-inst {
+    margin-bottom: 20px;
+    margin-top: 0px;
+}
+
+.re-item-inst, .re-item-des {
+    color: var(--dark-03, #757575);
+
+}
+
+.resume-container hr {
+
+    margin: 30px;
+}
+
+.download-cv {
+
+    text-align: center;
+    margin-top: 50px;
+}
+
+/* Footer part */
+
+.footer {
+
+    display: flex;
+    background: #FFF8F3;
+    padding: 130px 230px;
+    margin-top: 100px;
+}
+
+.footer-title {
+
+
+    color: var(--dark-01, #181818);
+    text-align: center;
+    font-size: 35px;
+    font-weight: 700;
+     
+}
