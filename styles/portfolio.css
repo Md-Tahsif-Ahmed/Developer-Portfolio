@@ -72,7 +72,7 @@ nav a {
 .banner .picture {
 
 
-    width: 500;
+    width: 500px;
 }
 
 .banner-greeting {
@@ -229,6 +229,10 @@ main section {
 }
 
 /* Footer part */
+/* footer {
+
+    width: 100%;
+} */
 
 .footer {
 
@@ -259,6 +263,10 @@ main section {
     
 }
 
+/* .social-icon a {
+    margin-right: 10px;
+} */
+
 .contuct input[type="text"], textarea, .contuct input[type="email"] {
     display: block;
     margin-bottom: 25px;
@@ -273,5 +281,85 @@ main section {
   
 
 
+
+}
+
+.hide {
+
+    display: none;
+}
+
+/* responsive web design */
+
+/* For Mobile  */
+
+@media screen and (max-width: 576px) {
+
+    .header {
+
+        background-image: none;
+    }
+
+    .banner .picture, .banner .banner-content{
+
+        width: 100%;
+        
+    }
+
+    .skill-container, .resume-container, .banner, nav, nav>ul {
+
+        flex-direction: column;
+    }
+
+    nav > ul {
+
+        gap: 10px;
+        
+        
+    }
+
+    .banner, #what-i-do {
+        padding: 20px;
+    }
+    
+    .button-primary {
+
+        margin-bottom: 15px;
+    }
+
+.footer, .about {
+
+    padding: 10px;
+    flex-direction: column;
+}
+
+.f-col {
+
+    width: 100%;
+}
+
+.contuct input[type="text"], textarea, .contuct input[type="email"] {
+
+    width: 80%;
+}
+
+.info-container {
+
+    flex-direction: column;
+}
+    
+}
+
+@media screen and (min-width: 576px) and (max-width: 960px) {
+
+     .footer {
+
+        padding: 30px;
+     }
+    
+     .button-primary {
+
+        margin-bottom: 15px;
+    }
 
 }
